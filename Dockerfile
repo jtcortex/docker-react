@@ -7,6 +7,7 @@ COPY . .
 RUN npm run build
 
 # /app/build <-- contains everything needed in the container
+# test commend
 
 # start second phase
 FROM nginx
